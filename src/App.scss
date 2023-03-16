@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navWrap{
+    width: 100vw;
+    background-color: rgb(240, 229, 229);
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1400px;
+        margin: auto;
+        padding: 10px;
+
+        input{
+            padding: 4px;
+            border-radius: 5px;
+            width: 250px;
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+
+}
+
+.container {
+    width: 1400px;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}

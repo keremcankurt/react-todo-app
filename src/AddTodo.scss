@@ -1,0 +1,18 @@
+
+.addTodo {
+    display: flex;
+    gap: 20px;
+    input{
+        padding: 4px;
+        border-radius: 5px;
+        width: 200px;
+    }
+    button {
+        border-radius: 4px;
+        width: 70px;
+        &:disabled{
+            background-color: gray;
+            color: black;
+        }
+    }
+}

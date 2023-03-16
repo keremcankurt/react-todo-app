@@ -1,0 +1,14 @@
+table{
+    width: 650px;
+    margin: auto;
+    border-collapse: collapse;
+    tr,td{
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+
+        button{
+            padding: 4px 20px;
+        }
+    }
+}
